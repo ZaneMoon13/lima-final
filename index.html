@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LIMA - Final</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body onload="console.log('Welcome to my home page!');">
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fzanemoon13.github.io%2Fmooney-hotel-lab%2F" target="_blank">NU Checker</a></li>
+        <li><a href="https://github.com/ZaneMoon13/mooney-hotel-lab" target="_blank">GitHub Repo</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- MAIN BODY -->
+
+<!-- LEFT SIDE -->
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+        <h4>Great Examples of HCI/UX on the InterWebs:</h4>
+        <p>(May Require Login for Twitter)</p>
+      <br>
+      <p><a href="https://twitter.com/una_esports" target="_blank">Twitter &#128036;</a></p>
+      <p><a href="https://visitevirtuelle.avoriaz.com/" target="_blank">Some Cool Ski Resort in France &#127748;</a></p>
+      <p><a href="https://public---domain.com/" target="_blank">Some Cool Website &#127790;</a></p>
+      <br>
+    </div>
+
+<!-- MIDDLE -->
+
+
+<!-- TEXT ABOVE FORMS // INITIALIZING FORMS -->
+    <div class="col-sm-8 text-center"> 
+      <h1>Welcome to <b>LIMA!</b> The final project for CIS 376!</h1>
+      <p>See an example of poor design and some prototypes to fix it:</p>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Bad Example</a></li>
+        <li><a data-toggle="tab" href="#menu1">Good Example</a></li>
+
+      </ul>
+
+<!-- BEGIN FORMS -->
+      <div class="tab-content">
+        <!-- BAD EXAMPLE  -->
+        <div id="home" class="tab-pane fade in active">
+          <h3>Bad Example of Game UI Design</h3>
+          <img src="imgs\destiny_2.jpg" alt="Destiny 2's Inventory System" class="image">
+          <!-- Take Input From User  -->
+          <h3>Well what's wrong with it? :</h3>
+          <p>As seen in the image above, Destiny 2 struggles with conveying the information neccessary to new players looking
+            at their inventory system to understand the context of the equipment the player is equipping. Stats like Intellect, Discipline, Recovery, have no
+            meaning to a new player when he/she/they first log into the game for the first time. <b>This is a problem.</b> The symbols that may be found on every single piece
+            of equipment have very different meaning behind them, but is trapped behind four different menus that you have to treverse to see the meaning. This is
+            horrible deisgn. A user friendly UI would have a simple mouse over on each stat/symbol/etc. to convey the information quickly instead of forcing
+            players to look online or in the thousands of pages of jargon in the menus. The numbers to the right of every skill also gives no context of what the player
+            is going to be recieving with the equipment. For example: What does +8 in Mobility mean? 10% speed? 10% acceleration? Who knows. That's why it's <b>poor UI design.</b> 
+            A good player of a video game wants to know what they are equipping before blindly equipping weapons and armor that may be worse then the gear they currently have. 
+          </p>
+          <br>
+          <p>We will make a prototype to fix Destiny 2 in the next tab above.</p>
+        </div>
+        <!-- GOOD EXAMPLE / PROTOTYPE -->
+        <div id="menu1" class="tab-pane fade">
+          <h3>Prototype to Fix Destiny 2</h3>
+          <img src="imgs\destiny_2_prototype.jpg" alt="Destiny 2's Inventory System" class="image">
+          <h3>Why is your idea so much better then what is there now? : </h3>
+          <p>Well. I hate to burst any bubbles... but as Conor McGegor once said: <a href="https://www.youtube.com/watch?v=dF_udGNzkNA" target="_blank">"I'd like to take this chance to apologize...
+            to absolutely no body!"</a></p>
+          <p>All jokes aside- I believe that this design will help newer players and older players when picking up Destiny 2. Destiny 2 is a game where one will play for around 150~
+            hours over the course of a couple of weeks and not play it for months afterwards. Both new and old players have to suffer through learning what every stat does, every symbol means, etc.
+            and it makes the game a chore to play rather then fun. This proposed idea fixes any and all problems I have pointed out in Destiny 2's UI.
+          </p>
+          
+        </div>
+
+      </div>
+      </div>
+
+<!-- RIGHT SIDE  -->
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <div class="container">
+          <img src="imgs\myself.jpeg" alt="Portrait of Zane Mooney" class="image">
+          <div class="middle">
+            <div class="text">Hey! Don't click my face.</div>
+          </div>
+        </div>
+        <p>Want to check out my GitHub? Click <a href=https://github.com/ZaneMoon13 target="_blank">here!</a></p>
+      </div>
+      <div class="well">
+        <img src=imgs\examples.jpg alt="UNA's championship graphic" width='250' height='200'>
+        <p>Check out this great <a href=https://www.marion.com/websites-with-bad-ux-design/ target="_blank">article</a> showing examples of bad UX designs!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+
+<!-- FOOTER TEXT -->
+
+<footer class="container-fluid text-center">
+  <p>Zane Mooney © 2076 B.C.</p>
+</footer>
+
+<script src="jS/scripts.js"></script>
+<script src="jS/dev_skills.js"></script>
+</body>
+</html>
