@@ -1,37 +1,44 @@
-# 376 Hotel Golf Story Card
+# 376 Lima Story Card (Final Dev Project)
 
-[376/home](https://gist.github.com/barrycumbie/83326a1ffcab7434abf9392795336d93)
+## User Story (👕XL)
 
-## User Story (points = 👕 sm) 
+**As A** user (to ANY type of interface that YOU identify...buncha examples provided)  
 
-**As A** data enterer person  
+**I want** an improved interface
 
-**I want** a nice, clean, logical web form
+**So that** I click fewer times
 
-**So that** I can give you my data! 
+## Narrative
 
-## Comments / Narrative
-- create a new, single web page
-- make up some name or reason for your user, a store or signup for underwater team bingo. 
-  - page should have enough info to inform/guide the user
-- create the interface and style 
-  - (no '<script>' needed this time!...but do have a place for it...initialize jQuerry)
-- set up a good dir structure, naming, repo, and all that 
-- use bootstrap5 classes first (before making your own style)
-- include the gamut of '<input>' and data types: 
-  - text entry: name, numbers (eg. ph#, credit, SSN), password (show it!?), email
-  - date and time
-  - check and option boxes 
-  - buttons 
-  - flow control ones (if I select this, I get this option) 
-  - clear, submit
-  - default input, help info, examples
+- There's a lot of bad design out there. Most of the time it really doesn't matter...sure it took me 0.2 extra seconds to buy something online or submit a form. This isn't a big deal, or is it? I bet we can fix it!
+- You will need to find some user input: an app, a website, a kiosk, a TV/game console input, a microwave, or whatever. Something that is a bit lacking and can be improved. 
+- Set up a REPO and DEPLOY a web-based app (just a page or pages) that 
+- (a) shows off the inefficient user interace and explains it
+- (b) and presents a prototype to fix it
+
+## An Example? Sure
+- Here's a great one from the past. 
+- Note: this is not _your_ exact assignment; some things have changed. Use as an example, borrow some code, but not a good idea to start from a clone of this one. 
+- [old class example](https://barrycumbie.github.io/FinalProject/)
 
 ## Min. Acceptance Criteria
-- [X] 10/sumbit working link, links to repo & validity (all valid) 
-- [X] 5/super clean repo & dir (no partial credit) 
-- [X] 10/super clean code: id's, classes, naming, format "pretty", no extras
-- [X] 5/COMMENTS in CODE, author and talk to me
-- [ ] 10/all required inputs
-- [X] 5/page has info and context
-- [X] 5/fridge factor 
+- APP. Your Webpage(s) 
+  - Deployed on GitHub Pages
+  - Self-describing: has a header, title, description to tell us that you are presenting an improved user interface design for a particular problem
+  - Can Navigate around and always get back, e.g, can click on prototype and then back to the "home" page (or tab or section)
+  - links to REPO, Nu. (open in new tab, labelled) 
+  - Clean & presentable 
+  - "Sample" form output is presented somehow (like in my Tumbly example or the other example I provided...but in a clean way and not like in that "dummy console" 
+- REPO
+  - REPO, File & Directory Naming: pascalCase & all file extensions in lowercase. 
+  - Proper use of subidiretories (all images in an `img/` folder, all scripts in a `scripts` one, styles in a `css`, etc.)
+  - links to your APP  
+- CODE
+  - Utilizes and correctly utilizes of Normalize, BS5, jQuery libraries
+  - Code formatted correctly (DuckDuckGo it...vs code with "pretty" it up automatically) 
+  - Uses event listeners and not inline function calls
+  - Uses external script, style and not internal or inline
+  - Logical code: can follow, understand, comments when needed
+  - Nu Errors corrected. (Some weird ones are okay, but fix the easy ones)  
+ 
+
